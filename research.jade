@@ -1,0 +1,214 @@
+html
+	head
+		include ./components/head.jade
+		<title>Research | Lim Lab</title>
+		<link type="text/css" rel="stylesheet" href="css/research.css"  media="screen,projection"/>
+	body
+		include ./components/header.jade
+		.table-of-contents.hide-on-small-and-down
+			.container
+				ul.row
+					li.col.s4: h5 Research
+					li.col.s2: a(href="#landing") Overview
+					li.col.s2: a(href="#research") Projects
+					li.col.s2: a(href="#news") News
+					li.col.s2: a(href="#other") Education
+		.table-place-holder.hide-on-small-and-down
+		#landing.scrollspy
+			.container
+				.row
+					h2 How Do Cells Make Decisions?
+					h3 Probing &amp; Programming Cell Signaling Circuits
+					.col.s12.m8.l7
+						p Living cells use genetically encoded molecular networks to monitor their environment and make sophisticated decisions.   We are interested in understanding the design principles underlying the function and evolution of these networks.  Cellular networks are interconnected and multifunctional; disentangling them to elucidate mechanisms is challenging. Thus, in addition to deconstructing natural networks, we use synthetic biology approaches to construct or rewire networks in ways that allow us to systematically analyze them.  We study diverse cell types (yeast, T cells, neurons) to elucidate the general logic that cells use to solve common regulatory problems. As we better understand the design rules of cellular networks, we have become interested in applying this knowledge to engineer designer cells that carry out therapeutic functions, such as sensing and destroying cancer.
+						p Our lab is composed of outstanding scientists from diverse fields (biochemistry, structural biology, cell biology, immunology, systems/synthetic biology, neurobiology, dev. biology, engineering, physics, chemistry) who are interested in applying interdisciplinary approaches to cutting edge problems in an exciting, collaborative environment.
+					.col.s12.m4.l5
+						include ./components/_construction.jade
+					#tools.col.s12.m4.l12
+						h4 Tools &amp; Systems
+						ul
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Molecular Biology, Synthetic Biology")
+								img(src="images/research/molecularbiology.png").responsive-img
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Signaling Modules | Molecular Building Blocks")
+								img(src="images/research/signalingmodule.png").responsive-img
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Yeast | Workhorse for manipulating genetically encoded circuits")
+								img(src="images/research/yeast.png").responsive-img
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Immune Cells & Neurons")
+								img(src="images/research/cells.png").responsive-img						
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Multicellular Assemblies")
+								img(src="images/research/multicell.png").responsive-img
+							li.col.s4.m6.l2.tooltipped(data-position="bottom" data-tooltip="Computational Systems Modeling")
+								img(src="images/research/computation.png").responsive-img
+
+		#main
+			.container
+				.row
+					ul#research.col.s12.m9.collapsible.scrollSpy
+						h4 Research Projects
+						.col.s12.m12.l6
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/network.png")
+									h5 Network Design Principles
+									.note Classify Common Molecular Algorithms
+								.collapsible-body
+									p What are the core regulatory algorithms (both dynamic and spatial) needed to build a living cell?
+									p Given biochemical constraints, are their finite ways to achieve these functions using networks built from biological molecules (i.e. a “periodic table” of common biological algorithms)?
+									p <i class="mdi-action-description"></i><strong>Design principles of regulatory networks: searching for the molecular algorithms of the cell</strong> <em>(Mol. Cell, 2013)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/signalsystem.png")
+									h5 Reconstituting Signaling Systems
+								.collapsible-body
+									p Can we reconstitute signaling pathways and networks to uncover their mechanisms of signal transmission, specificity and information processing?  We reconstitute systems both in vitro (biochemical reconstitution), as well as in vivo using heterologous engineered cellular systems (synthetic reconstitution).
+									p Reconstitution allows us to systematically and surgically vary individual system parameters to map precisely how these parameters contribute to system function and fitness. Tools such as optogenetics give us dials and knobs with which we can precisely perturb these complex systems in living cells.
+									p <i class = "mdi-action-description"></i> <strong>Build life to understand it</strong> <br/> <em>(Nature 2010)</em>
+									p <i class = "mdi-action-description"></i>  <strong>Rewiring cells: synthetic biology as a tool to interrogate the organizational principles of living systems</strong> <br/><em>(Ann. Rev Biophys, 2010)</em>
+									p <i class = "mdi-action-description"></i> <strong>Scaffold proteins: hubs for controlling the flow of cellular information</strong> <br/><em>(Science 2011)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/signalingproteins.png")
+									h5 Evolution and Design of Signaling Proteins
+								.collapsible-body
+									p How do new signaling functions and connectivity arise, and what is the role of modularity in evolution?
+									p Can we map and understand the evolution of signaling proteins and networks by comparing the sequences, composition, and function interoperability of proteins from related species?
+									p Can we understand the functional plasticity and evolvability of signaling proteins and networks by attempting to engineer or combinatorially select for new function?
+									p Can we design novel receptors for disease related signals?
+									p <i class = "mdi-action-description"></i> <strong>Phosphotyrosine signaling: evolving a new cellular communication system </strong> <br/> <em>(Cell 2010)</em>
+									p <i class = "mdi-action-description"></i>  <strong>Exploitation of Latent Allostery Enables the Evolution of New Modes of MAP Kinase Regulation </strong> <br/><em>(Cell 2013)</em>
+									p <i class = "mdi-action-description"></i> <strong>Rapid diversification of cell signaling phenotypes by modular domain recombination</strong> <br/><em>(Science 2010)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/collective.png")
+									h5 Collective Decisions &amp; Self-organization
+								.collapsible-body
+									p Most cells make important decisions through a combination of both autonomous (individual cell) responses and collective responses, mediated by secretion-based cell-cell communication (e.g. autocrine, paracrine, quorum sensing).  
+									p Currently, it is extremely challenging to distinguish autonomous and collective responses. We are using synthetic signaling systems and orthogonal cell-cell communication systems to disentangle these circuits.  We hope to determine common ways in which cell-cell signaling can process and reshape autonomous responses.
+									p We are also trying to understand how cell-cell communication network motifs contribute to emergent multicellular spatial self-organization in processes such as development.
+									p <i class = "mdi-action-description"></i> <strong>Secreting and sensing the same molecule allows cells to achieve versatile social behaviors</strong> <br/><em>(Science 2014)</em>
+									p <i class = "mdi-action-description"></i> <strong>Designing synthetic regulatory networks capable of self-organizing cell polarization </strong><em>(Cell 2012)</em>
+						.col.s12.m12.l6
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/tcell.png")
+									h5 Redesigning the T cell
+									.note Custom Therapeutics Cells
+								.collapsible-body
+									p We are applying our knowledge of signaling networks to engineer cells with custom therapeutic responses. We are focusing on engineering T cells, as T cells armed with synthetic chimeric antigen receptors (CARs) have proven to be a highly effective clinical platform for recognizing and killing cancer cells. We are designing next generation therapeutic cells that are safer yet more potent by detecting and integrating multiple control inputs.  We have received an NIH Director’s Transformative RO1 grant for this project.  We are also interested in engineering therapeutic cells for autoimmunity, infectious disease, and regenerative medicine.
+									p <i class = "mdi-action-description"></i> <strong>Cell-based therapeutics: the next pillar of medicine</strong> <br/><em>(Science Trans. Med 2013)</em>
+									p <i class = "mdi-action-description"></i> <strong>Designing customized cell signaling circuits</strong> <br/><em>(Nature Rev. Mol. Cell Bio. 2010)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/optogenetics.png")
+									h5 Cellular Optogenetics
+									.note Interrogating Spatial &amp; Dynamic Control
+								.collapsible-body
+									p We have developed light-responsive protein interaction modules that give us a remarkable ability to perturb and manipulate intracellular signaling nodes in a precise spatial and temporal manner. We use these tools to probe how cells encode and decode spatial and dynamic information.
+									p We also use optogenetic profiling of cancer cells to quantitatively map functional changes in their growth signaling networks. Such analysis may uncover key mechanisms involved in cancer, and may provide novel ways to classify and treat cancer types.
+									p <i class = "mdi-action-description"></i> <strong>The promise of optogenetics in cell biology: interrogating molecular circuits in space and time</strong> <br/><em>(Nature Meth. 2011)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/crispr.png")
+									h5 Crispr Circuits
+									.note Synthetic Regulation of the Genome
+								.collapsible-body
+									p We have developed methods to use catalytic inactive Cas9/CRISPR to regulate transcriptional control of specific endogenous genetic loci. We are using these approaches to construct novel gene regulatory circuits and cellular behaviors.
+									p <i class = "mdi-action-description"></i> <strong>Repurposing CRISPR as an RNA-Guided Platform for Sequence-Specific Control of Gene Expression</strong> <br/><em>(Cell 2013)</em>
+									p <i class = "mdi-action-description"></i> <strong> Engineering Complex Sythetic Transcriptional Programs with CRISPR RNA Scaffolds</strong><br/><em>(Cell 2015)</em>
+							li.card
+								.collapsible-header.clearfix
+									img(src="images/research/time.png")
+									h5 Signaling Dynamics
+									.note Using Time to Encode Information
+								.collapsible-body
+									p Time is an underappreciated element in biological regulation. The dynamics of inputs (duration, frequency) can be as important as dose in controlling the magnitude and specificity of cellular responses.  We are using optogenetic and microfluidic approaches to interrogate the mechanisms of dynamically regulated signaling circuits.  We are also using computational and synthetic biology approaches to construct circuits that are gated by temporally encoded information.
+					#news.col.s12.m3.scrollSpy
+						h4 News 
+						ul 
+							li Dec. 2014 - Postdoc Jared Toettcher starts as Assistant Professor at Princeton, Dept. of Molecular Biology 
+							li Nov. 2014 - Postdoc Elias Puchner starts as Assistant Professor at U. of Minnesota, Dept. of Physics
+							li Nov. 2014 - Congratulations to Jesse whose paper on CRISPR-scaffold RNA circuits was accepted to Cell
+							li Nov. 2014 - SysBio Fellow Stanley Qi starts as Assistant Professor at Stanford, Dept. of Bioengineering
+							li Oct. 2014 - Postdoc Hyun Youk starts Assistant Professor at Delft Univ. Bionanoscience Dept. (Netherlands),
+							li Oct. 2014 - Postdoc Jesse Zalatan starts as Assistant Professor at U. of Washington, Dept. of Chemistry
+							li Oct. 2014 - Lim Lab received NIH Directors Transformative RO1 grant on “Redesigning the T cell: Using Synthetic Biology to Engineer Therapeutic Cells.”
+		#other.scrollSpy
+			.container
+				#education.row
+					h4 Science Education &amp; Outreach
+					p The Lim Lab is strongly committed to innovation in science education and outreach.  We host the UCSF-Lincoln High School iGEM team, a long standing partnership between UCSF and the San Francisco Unified School District Biotechnology Program.  Wendell has also co-authored an innovative textbook on Cell Signaling, published by Garland Science.  The Lim Lab has also participated in a collaboration with the design consultancy, IDEO, to explore the role of design thinking in biological research and synthetic biology.  We are also collaborating with the Harvard laboratory of Self-Organizing Systems to use kilobots (simple collective robot swarms) as a tool to simulate and teach about molecular and cellular collective systems.  
+					.science-outreach.col.s12.m5.l3
+						a(href="cellsignaling.html").clearfix
+							img(src="images/research/book.png").responsive-img
+							h5 Textbook 
+							.note Cell signaling by Lim, Mayer, Pawson 
+					.science-outreach.col.s12.m5.l3
+						a(href="kilobots.html").clearfix
+							img(src="images/research/kilobots.png").responsive-img
+							h5 Kilobot Biology
+							.note Physical Simulation of Collective Behavior
+
+					.science-outreach.col.s12.m5.l3
+						a(href="design.html").clearfix
+							img(src="images/research/thinking.png").responsive-img
+							h5 Design Thinking &amp; Science
+					.science-outreach.col.s12.m5.l3
+						a(href="http://igem.ucsf.edu").clearfix
+							img(src="images/research/igem.png").responsive-img
+							h5 iGEM 
+							.note UCSF &amp; Lincoln H.S.
+				#stickers.row
+					.col.s12.m7
+						a(href="images/textbook/stickers.png")
+							img(src="images/textbook/stickers.png").z-depth-1.responsive-img
+					.col.s12.m5
+						a(href="images/research/stickers2.png")
+							img(src="images/research/stickers2.png").responsive-img
+
+		include ./components/footer.jade
+		//- script(src="js/cloud.js")
+		script(type='text/javascript').
+			  $(document).ready(function(){
+				$('.scrollspy').scrollSpy();
+				var navbarTop = $('.table-of-contents').offset().top
+			    $(document).scroll(function() {
+			        var windowTop = $(window).scrollTop();
+			        var diff = navbarTop - windowTop;
+			        var isTop = $('body').hasClass('fix-to-top');
+			        if (diff < 0 && !isTop) {
+			            $('body').addClass('fix-to-top');
+			        } else if (diff >= 0 && isTop) {
+			            $('body').removeClass('fix-to-top');
+			        }
+			    });
+				  //- var offset = $(".table-of-contents").offset();
+				  //- var sticky = $("body");
+				  //- var placeHolder = $(".table-place-holder");
+				  //- $(window).scroll(function(){
+				  //- 		if($(window).scrollTop() > (offset.top)) {
+						//- 	sticky.addClass("fix-to-top");
+				  //- 		} else {
+						//- 	sticky.removeClass("fix-to-top");
+				  //- 		}
+				  //- 	});
+				});
+
+        
+		//- 	$(window).load(function() {
+		//- 		var settings = {
+		//- 			"size" : {
+		//- 			"grid" : 16, 
+		//- 			},
+		//- 			"color" : {
+		//- 			    "start" : "#F27632", 
+		//- 			    "end" : "rgb(255,255,255)" 
+		//- 			},
+		//- 			"options" : {
+		//- 				"color" : "gradient",
+		//- 				"printMultiplier" : 3
+		//- 			},
+		//- 			"font" : "ostrich_sansmedium, sans-serif",
+		//- 			"shape" : "square"
+		//- 			};
+		//- 		$( "#wordcloud" ).awesomeCloud(settings);
+		//- 	})

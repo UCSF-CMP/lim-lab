@@ -1,0 +1,1596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"im",
+				"responsive-img"
+			],
+			[
+				"photo",
+				"photo"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"selected",
+				"selected_list"
+			],
+			[
+				"scale",
+				"scale_stream"
+			],
+			[
+				"True",
+				"True"
+			],
+			[
+				"is",
+				"is_balanced"
+			],
+			[
+				"left",
+				"left_to_right"
+			],
+			[
+				"Scheme",
+				"SchemeError"
+			],
+			[
+				"make-",
+				"make-exp"
+			],
+			[
+				"ex",
+				"exponent"
+			],
+			[
+				"mul",
+				"multiplicand"
+			],
+			[
+				"multi",
+				"multiplier"
+			],
+			[
+				"go",
+				"GOAL_SCORE"
+			],
+			[
+				"rest",
+				"rest"
+			],
+			[
+				"place",
+				"place"
+			],
+			[
+				"Scuba",
+				"ScubaThrower"
+			],
+			[
+				"hp",
+				"hp_graphic"
+			],
+			[
+				"team_",
+				"team_graphic"
+			],
+			[
+				"tea",
+				"team_graphic"
+			],
+			[
+				"team_n",
+				"team_notDrawn"
+			],
+			[
+				"jud",
+				"judging_graphic"
+			],
+			[
+				"ju",
+				"judging_graphic"
+			],
+			[
+				"judgin",
+				"judging_notDrawn"
+			],
+			[
+				"project",
+				"project_notDrawn"
+			],
+			[
+				"get",
+				"getTotalLength"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"upper",
+				"upper_bound"
+			],
+			[
+				"lower",
+				"lower_bound"
+			],
+			[
+				"average",
+				"average_sentiments"
+			],
+			[
+				"state",
+				"state_sentiment"
+			],
+			[
+				"clos",
+				"closest_state"
+			],
+			[
+				"group",
+				"group_by_key"
+			],
+			[
+				"fin",
+				"find_state_center"
+			],
+			[
+				"poly",
+				"polygon"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"inter",
+				"intersectWith"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"strok",
+				"stroke-width"
+			],
+			[
+				"experiment",
+				"experimental_time"
+			],
+			[
+				"exper",
+				"experimental_file"
+			],
+			[
+				"acti",
+				"activated_time"
+			],
+			[
+				"activ",
+				"activated_file"
+			],
+			[
+				"first_se",
+				"first_sequence_likelihood_scores"
+			],
+			[
+				"calc",
+				"calc_likelihood"
+			],
+			[
+				"first",
+				"first_sequence_likelihood_scores"
+			],
+			[
+				"like",
+				"likelihood_scores"
+			],
+			[
+				"calculate",
+				"calculate_entropy"
+			],
+			[
+				"entropy",
+				"entropy_scores"
+			],
+			[
+				"likeli",
+				"likelihood"
+			],
+			[
+				"likel",
+				"likelihood"
+			],
+			[
+				"low",
+				"low_likelihood_sequences"
+			],
+			[
+				"likeoo",
+				"likelihood_dict"
+			],
+			[
+				"generated_",
+				"generated_sequences"
+			],
+			[
+				"protein",
+				"proteins"
+			],
+			[
+				"number",
+				"number_of_DNA_sequences"
+			],
+			[
+				"reverse",
+				"reverse_complement"
+			],
+			[
+				"entroy",
+				"entropy_scores"
+			],
+			[
+				"high",
+				"highest_entropy_score"
+			],
+			[
+				"entr",
+				"entropy_scores"
+			],
+			[
+				"sq",
+				"sequence"
+			],
+			[
+				"entrop",
+				"entropy_scores"
+			],
+			[
+				"likeliho",
+				"likelihood_scores"
+			],
+			[
+				"codon",
+				"codon_table"
+			],
+			[
+				"seq",
+				"Sequences"
+			],
+			[
+				"rever",
+				"reverse_complement"
+			],
+			[
+				"amino_acid",
+				"amino_acid_sequence"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"seqe",
+				"sequence_composition"
+			],
+			[
+				"amino",
+				"amino_acid_sequence"
+			],
+			[
+				"amino_",
+				"amino_acid_sequence"
+			],
+			[
+				"amin",
+				"amino_acid_sequence"
+			],
+			[
+				"restriction",
+				"restriction_sites"
+			],
+			[
+				"mo",
+				"most_different_sequence"
+			],
+			[
+				"generate",
+				"generated_sequences"
+			],
+			[
+				"gen",
+				"generated_sequences"
+			],
+			[
+				"g",
+				"given_sequences"
+			],
+			[
+				"position",
+				"position_string"
+			],
+			[
+				"pep",
+				"peptide_histogram"
+			],
+			[
+				"param",
+				"params_file"
+			],
+			[
+				"num",
+				"number_of_DNA_sequences"
+			],
+			[
+				"open",
+				"open_save_fasta"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"output",
+				"output_fasta"
+			],
+			[
+				"composition",
+				"composition"
+			],
+			[
+				"compos",
+				"composition"
+			],
+			[
+				"fa",
+				"fa"
+			],
+			[
+				"de",
+				"deleted_length"
+			],
+			[
+				"le",
+				"len"
+			],
+			[
+				"sequence",
+				"sequence_split"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"brenda",
+				"brendaAminoAcidLengthRaw"
+			],
+			[
+				"median",
+				"median_specific_activity"
+			],
+			[
+				"bren",
+				"brendaSpecificActivityRaw"
+			],
+			[
+				"specif",
+				"specific_activity_parser"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"enzyme",
+				"enzyme_Activity_found"
+			],
+			[
+				"enzyme_Acti",
+				"enzyme_Activity_found"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.jade",
+			"settings":
+			{
+				"buffer_size": 1505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "people/wendell.jade",
+			"settings":
+			{
+				"buffer_size": 6527,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "people/member.jade",
+			"settings":
+			{
+				"buffer_size": 2094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/people_footer.jade",
+			"settings":
+			{
+				"buffer_size": 1130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "research.jade",
+			"settings":
+			{
+				"buffer_size": 15366,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/_construction.jade",
+			"settings":
+			{
+				"buffer_size": 109752,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "people/alumni.jade",
+			"settings":
+			{
+				"buffer_size": 11695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "papers.jade",
+			"settings":
+			{
+				"buffer_size": 38121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.jade",
+			"settings":
+			{
+				"buffer_size": 2225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/header.jade",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_main.scss",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/index.scss",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/materialize.scss",
+			"settings":
+			{
+				"buffer_size": 1039,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/papers.scss",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/research.scss",
+			"settings":
+			{
+				"buffer_size": 4928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/fonts.scss",
+			"settings":
+			{
+				"buffer_size": 2983,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"sch",
+				"Set Syntax: Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add ",
+				"Git: Add Current File"
+			],
+			[
+				"Git Add",
+				"Git: Add Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"Commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"Comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code",
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/components",
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/font",
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/sass"
+	],
+	"file_history":
+	[
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/components/_construction.svg",
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/design.jade",
+		"/Users/Intrepidlemon/Dropbox/Websites/website - Lim Lab/Code/images/research/kilobots2.png",
+		"/Users/Intrepidlemon/Downloads/materialize-src/sass/components/_global.scss",
+		"/Users/linxi/Dropbox/azumio/dist/web/war/s/js/azumio.js",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/textbook.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/_main.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/people.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/index.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/contact.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/downloads.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/index.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/papers.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers_highlights.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/links.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/links.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/header.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/research.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/_construction.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/research.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/wendell.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/footer.jade",
+		"/Users/linxi/Library/Application Support/Steam/SteamApps/common/StarMade/StarMade/server.cfg",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/cellsignaling.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/jade/research.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/head.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/people_head.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/member.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/kole.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/geoff.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/leo.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/amir.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/krista.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/russell.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/joan.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/ricardo.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/wal_2013b.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pb_2009.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/wal_2013b.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/papers.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/park_2014.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/hyouk_2014.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/park_2014.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/components/papers_head.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pdfs/papers.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/wal_2013b.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers_highlights.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/al_2009.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/wal_2010.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/pw_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/ket_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/ket_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/gtk_2012.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/ket_2012.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/hyouk_Cell_2014.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/hyouk_Cell_2014.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/parse_all_papers.py",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/hyouk_2014.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/hyouk_2014.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/old/wal_2013a.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/ahc_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/bfv_2002_sup_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/ahc_2012.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/al_2009.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/az_2004.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/paper.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/gtk_2012_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pb_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/wal_2010.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pw_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pb_2009_supp.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/pb_2009.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/gtk_2012_test.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/az_2004_sup.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/gtk_2012.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/emp_2013_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/dp_2008_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/cjb_2008_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/papers/bzh_2003_test.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/lukasz.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/levi.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/xin.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/wendell.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/chia.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/scott.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/angi.jade",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/people/scott.html",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/js/materialize.js",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/scss/fonts.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/materialize.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/components/_navbar.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/sass/main.scss",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/css/materialize.css",
+		"/Users/linxi/Downloads/webfontkit-20141220-011428/stylesheet.css",
+		"/Users/linxi/Dropbox/iGEM 2014 Data/Website Materials/Code/css/main.scss",
+		"/Users/linxi/Dropbox/iGEM 2014 Data/Website Materials/Code/css/_normalize.scss",
+		"/Users/linxi/Dropbox/iGEM 2014 Data/Website Materials/Code/css/_home.scss",
+		"/Users/linxi/Dropbox/iGEM 2014 Data/Website Materials/Code/css/fonts.css",
+		"/Users/linxi/Dropbox/website - Lim Lab/Code/index.html",
+		"/Users/linxi/Desktop/questions.html",
+		"/Users/linxi/Desktop/test3.py",
+		"/Users/linxi/Desktop/test1.py",
+		"/Users/linxi/Dropbox/Code/Unity/Roll-a-ball/Assets/Scripts/PlayerController.cs",
+		"/Users/linxi/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/notebook.txt",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/_Ianto's Digital Lab Notebook.md",
+		"/Users/linxi/Downloads/spotify-downloader-master/package.json",
+		"/Users/linxi/Downloads/node_modules/spotify-downloader-master/playlist.txt",
+		"/Users/linxi/Downloads/spotify-downloader-master/bin/spotify-downloader",
+		"/Users/linxi/Dropbox/School/2014FALL/CS 61A/Lecture/dog.sql",
+		"/Users/linxi/Dropbox/School/2014FALL/CS 61A/Lecture/sql.py",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140131_EBV_Composition_Test/STEP10.sh",
+		"/Users/linxi/Dropbox/School/2014FALL/CS 61A/Labs/lab10.py",
+		"/Users/linxi/Dropbox/School/2014FALL/cs 61a/project 1/Project 4 Scheme/scheme_reader.py",
+		"/Users/linxi/Dropbox/School/2014FALL/cs 61a/project 1/Project 4 Scheme/scheme.py",
+		"/Users/linxi/Dropbox/School/2014FALL/cs 61a/project 1/Project 4 Scheme/scheme_primitives.py",
+		"/Users/linxi/Dropbox/School/2014FALL/cs 61a/project 1/Project 4 Scheme/tests.scm",
+		"/Users/linxi/Downloads/scheme/tests.scm",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140307_Variance_Stabilize_Transformation/140409_Baseline_and_Sum_high_low_ttests.R",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140131_EBV_Composition_Test/peakfiles/_2 from Server/combined_peaks_2",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140207_Gene_Threshold_Analysis/peakfiles/_2 from Server/combined_peaks_2GENCODEID.txt",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/common/TranslatePeaksToGENCODEID.py",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140131_EBV_Composition_Test/peakfiles/_2 from Server/combinedBinned/allbam.noncoding.parsed.combined.txt",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140207_Gene_Threshold_Analysis/peakfiles/_2 from Server/combined_peaks_2",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140131_EBV_Composition_Test/peakfiles/_2 from Server/combinedBinned/allbam.miRNA.parsed.combined.txt",
+		"/Users/linxi/Dropbox/Extracurriculars/CHORI/Small RNA-Seq Analysis from Lab Server/140207_Gene_Threshold_Analysis/peakfiles/_2 from Server/combinedBinned/eugene.unannotated.parsed.combined.txt"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"in selection",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"structural",
+			"cover16",
+			"5em",
+			"valign",
+			"<em>",
+			"rewiring",
+			"08em",
+			"table.striped",
+			".download.card-panel",
+			".download",
+			".download.card",
+			".download",
+			"janet",
+			"            th",
+			"          tr\n            th(",
+			"mechanisms of sca",
+			"table(",
+			"    td\n        p\n          a",
+			"  \n  ",
+			"  p.title\n      a(",
+			"      a",
+			"      em",
+			"    p.journal",
+			"    p.authors",
+			"span",
+			"p\n  span.title",
+			"br",
+			"\n            | ",
+			"\n          | ",
+			"\n        | ",
+			"        td(width='400')\n          h3 Structure\n    \n        td(width='75')\n          h3 File",
+			"      |   ",
+			"\n",
+			"&#x9;",
+			"      |     &#x9;",
+			"      |       ",
+			"<br>",
+			"<a",
+			"structural",
+			"stickers",
+			"Stickers",
+			"388 (2012)",
+			"ul",
+			"margin",
+			"16px",
+			"h5",
+			"small",
+			"ü",
+			"”",
+			"“",
+			"<br>",
+			"			|    \n			|    ",
+			"			|    \n",
+			"			|    ",
+			"</p>",
+			"<p>",
+			"span",
+			"<h3><a",
+			"<a name = \"scaffold\">",
+			"<a name = \"scaffold\">*</a>",
+			"h2blue",
+			"openModal",
+			"leanModal",
+			"modal",
+			"helvetica",
+			"helvetica neue",
+			"helvetica heue",
+			"getaddrinfo",
+			"ENOTFOUND",
+			"make_env",
+			".execute",
+			"\\t",
+			"Begin",
+			"LambdaProcedure",
+			"do_define_form",
+			"lookup",
+			"    \n",
+			"insulin",
+			"atom?",
+			"analyze",
+			"helper",
+			"Pair",
+			"frame",
+			"lambda",
+			"begin",
+			"LOGICAL",
+			"check_form",
+			"do_quote_form",
+			"do_quote",
+			"do_define",
+			"read_line",
+			"do_define_form",
+			"do_defin",
+			"raise",
+			".bindings",
+			"PrimativeProcedure",
+			"primativeProcedure",
+			"results",
+			"okay",
+			"shallow",
+			"deep",
+			"high",
+			"low",
+			"hold",
+			"empty",
+			"**",
+			"These two yea",
+			"**",
+			"found in",
+			"found as",
+			"found in",
+			"V. F",
+			"text-d",
+			"ComputerModel5",
+			"generates ",
+			"class = \"foot\"",
+			"V. fischeri",
+			"Normalized GFP (A.U)",
+			"at around ",
+			"super-science",
+			"curriculum",
+			"super curriculum",
+			"<a href = \"#alhs\"><h2>ALHS<svg class=\"down\"><use xlink:href=\"#icon-arrow-down\"></use></svg></h2></a>",
+			"            <",
+			">        ",
+			">  ",
+			"            ",
+			"./human_practices.html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<br/><em>",
+			"table.striped.card-panel",
+			".download",
+			".download.card-panel",
+			".download.card",
+			"              th",
+			"          thead\n            tr\n              th(",
+			"table.striped(",
+			"      td\n        p\n          a",
+			"",
+			"  p.title\n    a(",
+			"    a",
+			"    em",
+			"  p.journal",
+			"  p.authors",
+			"p",
+			".download\n  span.title",
+			"",
+			" ",
+			"  ",
+			" ",
+			"        th(width='400') Structure\n    \n        th(width='75') File",
+			"",
+			"</li>",
+			"<li><a",
+			"&uuml;",
+			"\"",
+			"			|    ",
+			"div",
+			"<h3><a style = \"color: black; font-size: 0.8em\"",
+			"<a name = \"scaffold\" style = \"color: black; font-size: 0.7em\">",
+			"h3",
+			"\",\"",
+			"list-partitions",
+			"rest",
+			"first",
+			"deep",
+			"link",
+			"self.empty",
+			"<em>V. fischeri</em>",
+			"<em> V. fischeri </em>",
+			"<!-- <a href = \"#alhs\"><h2>ALHS<svg class=\"down\"><use xlink:href=\"#icon-arrow-down\"></use></svg></h2></a> --> ",
+			"",
+			"./hp.html",
+			"",
+			".png",
+			".jpg",
+			"<plasmid sequence",
+			"</plasmid>\\n                                                    </div>",
+			"<div class = \"plasmid\">\\n                                                    <plasmid",
+			"</",
+			"\">",
+			"",
+			"\\t",
+			"",
+			"<<>>",
+			"",
+			"<path class = \"dot-four\" d=",
+			"<path class = \"dot-three\" d=",
+			"<path class = \"dot-two\" d=",
+			"<path class = \"dot-one\" d=",
+			" c",
+			"z\"/>",
+			"/>",
+			"\"",
+			"c",
+			"fill-rule=",
+			"dot-four",
+			"dot-one",
+			"dot-four",
+			"dot-three",
+			"dot-two",
+			"dot-two\n\n",
+			"<path class = \"dot-one\" \n\n",
+			"<path class = \"dot-one\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$1\"/>\n<path class = \"dot-two\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$2\"/>\n<path class = \"dot-three\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$3\"/>\n<path class = \"dot-four\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$4\"/>\n",
+			"",
+			"<path class = \"dot-one\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$1\"/>\n<path class = \"dot-two\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$2\"/>\n<path class = \"dot-three\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$3\"/>\n<path class = \"dot-four\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"$4\"/>\n",
+			"<path class = \"dot-one\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<$1]+\"/>\n<path class = \"dot-two\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<$2]+\"/>\n<path class = \"dot-three\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<$3]+\"/>\n<path class = \"dot-four\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<$4]+\"/>\n",
+			"<path class = \"dot-one\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<]+\"/>\n<path class = \"dot-two\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<]+\"/>\n<path class = \"dot-three\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<]+\"/>\n<path class = \"dot-four\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"[^<]+\"/>\n",
+			"\n",
+			"",
+			"'",
+			"",
+			"'",
+			"]",
+			"[",
+			"kmer",
+			"",
+			"kmer",
+			"kmer_count"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "people/wendell.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1199.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "people/member.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2082,
+								2082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/people_footer.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "research.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12470,
+								12470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 1895.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/_construction.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90142,
+								90142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "people/alumni.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "papers.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "contact.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2178,
+								2178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "components/header.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "sass/_main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "sass/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "sass/materialize.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1039,
+								1039
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "sass/papers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "sass/research.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2670,
+								2670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1705.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "sass/fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 896.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 94.0
+	},
+	"project": "LimLab.sublime-project",
+	"replace":
+	{
+		"height": 104.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

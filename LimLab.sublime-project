@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/Intrepidlemon/Downloads/materialize-src/sass/components"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "components"
+		}
+	]
+}

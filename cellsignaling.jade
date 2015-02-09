@@ -1,0 +1,65 @@
+html
+	head
+		include ./components/head.jade
+		<title>Cell Signaling: Principles and Mechanisms</title>
+		<link type="text/css" rel="stylesheet" href="css/textbook.css"  media="screen,projection"/>
+	body
+		#top.clearfix
+			.container.clearfix
+				h2 NEW FROM GARLAND SCIENCE
+		#cover
+			.row
+				.prof.col.s2.m2.l2
+					img(src="images/textbook/prof.png")
+				.cover.col.s7.m7.l7
+					img(src="images/textbook/cellsignaling.png").responsive-img
+				.prof.col.s3.m3.l3
+					img(src="images/textbook/prof1.jpg")
+					img(src="images/textbook/prof2.jpg")
+		#main 
+			.container
+				.row
+					.col.s12.m7.l8
+						p Cell Signaling presents the principles and components that underlie all known signaling processes. It provides undergraduate and graduate students the conceptual tools needed to make sense of the dizzying array of pathways used by the cell to communicate.  By emphasizing the common design principles, components, and logic that drives all signaling, the book develops a conceptual framework through which students can understand how thousands of diverse signaling proteins interact with each other in vast interconnected networks. The book first examines the common currencies of cellular information processing and the core components of the signaling machinery.  It then shows how these individual components link together into networks and pathways to perform more sophisticated tasks. Many specific examples are provided throughout to illustrate common principles, and provide a comprehensive overview of major eukaryotic signaling pathways.
+						.link
+							a.orange.waves-effect.waves-light.btn(href = "http://www.garlandscience.com/product/isbn/9780815342441;jsessionid=urdN0gUZCxwak7Eu3znGlQ__") Learn more from Garland Science
+						.link
+							a.orange-text.darken-3(href="#") Resources for students and instructors
+					#features.col.s12.m5.l4
+						h3 Features
+						ul
+							li Provides a conceptual framework through which all signaling pathways can be understood. 
+							li Attractive and consistent art program with custom-built structures to clarify key concepts in a molecular context. 
+							li End-of-chapter questions reinforce central concepts while promoting an experimental and inquisitive approach. Answers are provided online. 
+							li Pedagogy includes end-of-chapter summaries, references, glossary, and cross-reference icons to make explicit connections between chapters. 
+							li Cell Signaling Technology poster included with each book. The two-sided poster details important signaling pathways. 
+							li Chapter 12, <em>How Cells Make Decisions</em>, offers a unique visual and interrogative approach that explores four key signaling pathways from teh organismal to molecular levels. 
+							li Chapter 13, <em>Methods ofr Studying Signaling Proteins and Networks</em>, reviews important experimental methods and approaches in cell signaling. 
+				.row
+					.col.s12.m6
+						img(src="images/textbook/daughter.jpg").responsive-img
+					.col.s12.m6
+						img(src="images/textbook/title.png").responsive-img
+						.row
+							ul
+								.col.s6
+									li 
+										a.orange-text.darken-3(href="index.html") Lim Lab
+									li
+										a.orange-text.darken-3(href="#") Mayer Lab
+									li
+										a.orange-text.darken-3(href="http://pawsonlab.mshri.on.ca") Pawson Lab
+								.col.s6
+									li 
+										a.btn.orange.waves-effect-waves-light(href="#") Reviews
+				a(href="images/textbook/stickers.png")
+					img(src="images/textbook/stickers.png").responsive-img
+
+	script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+	script(src="js/materialize.min.js")
+	script(type='text/javascript').
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+			$('.collapsible').collapsible();
+			$('.tooltipped').tooltip({"delay": 50});
+		});

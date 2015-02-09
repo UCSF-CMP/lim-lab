@@ -1,0 +1,105 @@
+//# Colors #//
+$Orange: #F16521;
+
+//# Imports #//
+@import 'fonts';
+
+
+//# Mixins #//
+
+
+//# Site-wide styles #//
+
+//fonts//
+html{
+	font: 16px/26px Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 200;
+
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'ostrich_sansmedium', Helvetica Neue, Helvetica, Arial, sans-serif;
+	}
+}
+
+//header//
+#logo{
+	float: left;
+	margin: 6px 0; 
+}
+
+
+@media #{$medium-and-down}{
+	#logo{
+    margin: 6px 0 6px 30%; //center the logo in small and medium screens
+    float: right;
+	}
+}
+
+nav {
+	font-family: 'ostrich_sansmedium', Helvetica Neue, Helvetica, Arial, sans-serif;
+	ul{
+		a {
+			font-size: 26px;
+		}
+	}
+}
+
+body .lastrow{
+	
+	margin-bottom: 0;
+}
+
+h1 {
+  .part1{
+    font-family: 'ostrich_sansblack'
+  }
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+#downloads {
+  .title {
+    font-weight: 700; 
+    text-decoration: underline;
+    a { 
+      color: black;
+    }
+  }
+  .title, .authors, .journal {
+    margin: 0;
+  }
+  .download {
+    margin: 20px 0 50px 0; 
+    table{
+      width: 70%; 
+      margin: 20px auto 0 auto; 
+      td,th {
+        padding: 5px 20px;
+      }
+    }
+  }
+
+}
+@media #{$small-and-down}{
+#downloads { 
+  .download {
+    table{ 
+      width: 100%;
+    }
+  }
+}
+}
+#contact {
+  table{ 
+    td {
+        padding: 5px 10px; 
+        text-align: left; 
+
+    }
+  }
+
+}

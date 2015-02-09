@@ -1,0 +1,38 @@
+html
+	head
+		include ./components/head.jade
+		<title>Research | Lim Lab</title>
+		<link type="text/css" rel="stylesheet" href="css/research.css"  media="screen,projection"/>
+	body#kilobots
+		include ./components/header.jade
+		.container 
+			#head.row
+				.col.s12.m7.l4
+					h1 Kilobots <br/>
+						small Collective Robotic Systems for Physically Simulating Biological Self-Organization
+				.col.s12.m5.l8
+					img(src="images/research/kilobots2.png").responsive-img.center
+			p Kilobots are simple low cost robots capable of only elementary sensing and movement. But because they can communicate with one another, they can execute complex self-organization as a swarm. They were developed by Radhika Nagpal’s lab at Harvard University.
+			.row
+				.col.s12.m3.l4
+					.row
+						.col.s6.m12.l12
+							img(src="images/research/kilobots3.jpg").responsive-img
+						.col.s6.m12.l12
+							.comparison.row
+								.col.s12
+									img(src="images/research/kilobots6.jpg").responsive-img
+								.col.s12
+									img(src="images/research/kilobots5.jpg").responsive-img
+				.col.s12.m9.l8
+					img(src="images/research/kilobots4.jpg").responsive-img
+					p We held a kilobot workshop at UCSF that brought together molecular &amp; cell biologists from UCSF with roboticists from Harvard.  We explored how kilobots could be used to simulate cellular scale self-organizational processes.  We now have a 100-kilobot swarm here at UCSF.
+					p We are interested in using kilobots as an educational tool for physically simulating collective molecular and cellular behaviors. 
+					img(src="images/research/kilobotBiology.png").responsive-img
+			h5 Links
+			ul
+				li: a(href="https://www.kilobotics.com") https://www.kilobotics.com
+				li: a(href="http://systemsbiology.ucsf.edu/index.php/syssynbio-news/113-kilobots-robotics-workshop-simulates-collective-biological-behaviors") UCSF Kilobots Workshop 
+				li: a(href="https://www.youtube.com/watch?v=V05tkwAtxbU&feature=youtu.be") Kilobot Workshop: Collective Robotics for Life Scientists [Video]
+				li: a(href="https://sites.google.com/site/kilobotsucsf/") Kilobots@UCSF
+		include ./components/footer.jade

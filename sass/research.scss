@@ -1,0 +1,284 @@
+@mixin animation-custom ($animation, $duration, $delay, $timing, $iteration) {
+    -webkit-animation-delay: $delay;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-name: $animation;
+    -webkit-animation-timing-function: $timing;
+  -webkit-animation-iteration-count: $iteration;
+ 
+    -moz-animation-delay: $delay;
+    -moz-animation-duration: $duration;
+    -moz-animation-name: $animation;
+    -moz-animation-timing-function: $timing;
+  -moz-animation-iteration-count: $iteration;
+ 
+    -o-animation-delay: $delay;
+    -o-animation-duration: $duration;
+    -o-animation-name: $animation;
+    -o-animation-timing-function: $timing;
+  -o-animation-iteration-count: $iteration;
+
+ 
+    animation-delay: $delay;
+    animation-duration: $duration;
+    animation-name: $animation;
+    animation-timing-function: $timing;
+  animation-iteration-count: $iteration;
+
+}
+
+@-webkit-keyframes construction {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.05;    
+  }
+  100%{
+     opacity: 1;   
+  }
+}
+@keyframes construction {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.05;    
+  }
+  100%{
+     opacity: 1;   
+  }
+}
+body{
+  position: relative;
+}
+#landing{ 
+	// background: url(../images/research/landingbg.png);
+	background: #F16521;
+	color: white; 
+	padding-bottom: 20px;
+	.container{
+		max-width: 980px;
+	}
+	h2 {
+		font-family: 'ostrich_sansblack', sans-serif;
+		margin: 0;
+		padding: 30px 0 0 0;
+	}
+	h3 {
+		margin: 0; 
+    font-size: 2.3em;
+		padding: 0;
+	}
+  svg {
+   #construction, #Synthetic_Biology, #Immunology, #Therapeutic_Cells, #Cancer, #Protein_Engineering{
+      /*fill: #702968;*/
+     @include animation-custom(construction, 6s, 0, linear, infinite); 
+     }
+    #deconstruction, #Biochemistry, #Systems_Biology, #Structural_Biology, #Evolution, #Cell_Signaling  {
+       @include animation-custom(construction, 6s, 3s, linear, infinite);
+    }
+    #Design_Principles, #Dynamics, #Self-organization,  {
+      @include animation-custom(construction, 3s, 1.5s, linear, infinite);
+    }
+  }
+}
+.fix-to-top {
+    .table-of-contents{
+    position: fixed; 
+    top:0;
+    left: 0;
+    width: 100%; 
+    z-index: 100000;
+  }
+  .table-place-holder{
+    display: block;
+  }
+}
+.table-place-holder{
+ background: #cd561c; 
+ width: 100%;
+ height: 46px;
+ display: none;
+}
+.table-of-contents{
+  background: white;
+  h5{
+    font-family: 'ostrich_sansmedium', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0;
+    color: #00BBF2;
+    padding: 10px 0 6px 0;
+  }
+  ul{
+    margin: 0;
+    li {
+      a{
+        padding: 10px 0; 
+        display: block;
+        color: #00BBF2;
+      }
+      a:hover{
+        border-bottom: 1px #00BBF2 solid;
+      }
+      a.active{
+        border-bottom: 3px #00BBF2 solid;
+      }
+
+    }
+  }
+}
+#main {
+	#research {
+		box-shadow: none;
+		border: none;
+    	margin: 0;
+		.active {
+			.collapsible-header {
+				box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+			}
+		}
+		.collapsible-header {
+			padding: 15px;
+			height: auto;
+			border-bottom: none;
+			z-index: 10;
+			position:relative;
+			img{
+				height: 75px;
+				width: 75px;
+				float: right;
+				padding-right: 5px;
+				clear:both;
+			}
+			.note {
+				line-height: 1em; 
+				font-size: 1em;
+			}
+			h5{
+				font-family: 'ostrich_sansblack', sans-serif;
+				font-size: 1.3em;
+				line-height: 1em;
+				margin: 0;
+			}
+		}
+		.collapsible-body {
+			padding-bottom: 15px;
+			border-bottom: none;
+			font-size: .9em;
+			line-height: 1.2em;
+			z-index: 1;
+			background: #f8f8f8;
+			position:relative;
+			p {
+				padding-top: 15px; 
+				padding-bottom: 0;
+			}
+			ul li {
+				list-style: disc;
+			}
+		}
+	}
+	#news {
+		font-size: 0.8em;
+		line-height: 1.2em;
+		li {
+			padding-bottom: 1em;
+		}
+	}
+
+}
+
+.material-tooltip{
+	height: auto;
+	width: 150px;
+}
+
+#tools {
+  h4{
+  	color: white;
+    padding: 20px 0 0 0;
+  }
+  ul{
+    margin: 0;
+  }
+	li {
+		margin-top: 20px;
+	}
+}
+
+#other {
+	background: #B0D17C;
+	padding-bottom: 20px;
+	#education {
+		.science-outreach {
+      padding: 10px;
+      a {
+			padding: 10px;
+      display: block;
+			color: black;
+      background: #C1E28D; 
+      }
+			img {
+				width: 30%;
+				float: right;
+			}
+			h5 { 
+				font-family: 'ostrich_sansblack', sans-serif;
+				font-size: 1.5em;
+				line-height: 1em;
+				margin: 0;
+				margin-top: 10px;
+			}
+			.note {
+
+			}
+		}
+
+	}
+}
+
+body {
+	h4 { 
+		font-family: 'ostrich_sansblack', sans-serif; 
+		color: #F16521;
+		margin: 0;
+		padding: 20px 0; 
+	}
+}
+#kilobots{
+	h1 {
+		font-family: 'ostrich_sansblack', sans-serif;
+		font-size: 6em;
+		small{
+			font-size: 0.3em;
+			line-height: 1em;
+			margin-top: 1em;
+			display: block;
+		}
+	}
+	#head{
+		img{
+			display: block;
+			max-width: 250px;
+			margin: 3em auto 0 auto;
+		}
+	}
+	.comparison{
+		img{
+			width: 100%;
+		}
+	}
+}
+#design{
+	.head {
+		margin-top: 1em;
+		h1{
+			font-family: 'ostrich_sansblack', sans-serif;
+			font-size: 4em;
+		}
+	}
+	strong{
+		font-family: 'ostrich_sansblack', sans-serif;
+	}
+}

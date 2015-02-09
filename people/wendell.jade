@@ -1,0 +1,131 @@
+extends ./member.jade
+
+block name
+	span.part2 Wendell | 
+	span.part1 Lim
+
+block image
+	img.responsive-img.z-depth-1(src="images/wendell2014.jpg")
+
+block basic
+	p Professor &amp; Chair, Department of Cellular and Molecular Pharmacology
+	p Investigator, Howard Hughes Medical Institute
+	p Director, UCSF Center for Systems &amp; Synthetic Biology
+	p A.B., Harvard University
+	p Ph.D., Massachusetts Institute of Technology
+	p Postdoctoral Fellow, Yale University
+	|	<p>Phone: 415-502-8080<br/>
+	|	FAX: 415-514-4242<br/>	
+	| wendell.lim <img src="images/at.gif" class="at"> ucsf.edu</p>        
+
+block info
+	p My general scientific interests are in understanding how genetically encoded molecular programs can yield the remarkable behaviors observed in biological organisms, at multiple scales.  I began my research career as a biophysical chemist and structural biologist studying problems such as the evolutionary optimization of enzymes, how protein structure is encoded in sequence, and the determinants of protein-protein interaction specificity.  My research has gradually shifted towards utilizing this mechanistic understanding of molecules as a foundation to study how systems of interacting molecules assemble to yield cellular or organismal signaling behaviors – complex behaviors in both space and time.  My lab is interested in both the fundamental principles governing these molecular programs, as well as the way such programs have evolved.  How to identify the most relevant functional modules at various scales of biology is an ongoing but fascinating challenge.  We have also become interested in using synthetic biology and our growing understanding of molecular networks to engineer cells with novel behaviors, such as therapeutic immune cells programmed to recognize and treat cancer or other diseases.  This is a tremendously exciting time for creative exploration in biology: our knowledge of the genome and of basic molecular and network mechanisms is now combined with exciting new tools for interfacing with, interrogating, and engineering biological systems.
+	.row
+		#textbook.col.s6.l3
+			a(href="../cellsignaling.html")
+				h4 Textbook
+				img.responsive-img(src="images/cellsignaling.jpg")
+		.col.s6.l3
+			#iGEM
+				a(href="../research.html#education")
+					h4 Education<strong>&amp;</strong>iGEM
+					img.responsive-img(src="images/education.jpg")
+			#pumpkins
+				a.modal-trigger(href="#pumpkinsModal")
+					h4 Pumpkins
+					img.responsive-img(src="images/pumpkins.jpg")
+		.col.s6.l3
+			#coverart
+				a.modal-trigger(href="#coverArtModal")
+					h4 Cover Art
+					img.responsive-img(src="images/cover.png")
+			#ScienceCook
+				a.modal-trigger(href="#scienceCookModal")
+					h4 Science<strong>&amp;</strong>Cooking
+					img.responsive-img(src="images/sciencecook.jpg")
+		.col.s6.l3
+			#art
+				a.modal-trigger(href="#artModal")
+					h4 Art
+					img.responsive-img(src="images/art.jpg")
+	#pumpkinsModal.modal
+		h4 Pumpkins
+		.row
+			.col.s12.m4
+				img(src="images/pumpkins/pumpkin0.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin1.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin2.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin3.jpg").responsive-img
+			.col.s12.m4
+				img(src="images/pumpkins/pumpkin4.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin5.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin6.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin7.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin8.jpg").responsive-img
+			.col.s12.m4
+				img(src="images/pumpkins/pumpkin9.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin10.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin11.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin12.jpg").responsive-img
+				img(src="images/pumpkins/pumpkin13.jpg").responsive-img
+	#coverArtModal.modal
+		h4 Cover Art
+		.row
+			.col.s12.m4 
+				img(src="images/covers/cover0.png").responsive-img
+				img(src="images/covers/cover1.png").responsive-img
+				img(src="images/covers/cover2.png").responsive-img
+				img(src="images/covers/cover3.png").responsive-img
+				img(src="images/covers/cover4.png").responsive-img
+				img(src="images/covers/cover5.png").responsive-img
+			.col.s12.m4 
+				img(src="images/covers/cover6.png").responsive-img
+				img(src="images/covers/cover7.png").responsive-img
+				img(src="images/covers/cover8.png").responsive-img
+				img(src="images/covers/cover9.png").responsive-img
+				img(src="images/covers/cover10.png").responsive-img
+				img(src="images/covers/cover11.png").responsive-img
+			.col.s12.m4 
+				img(src="images/covers/cover12.png").responsive-img
+				img(src="images/covers/cover13.png").responsive-img
+				img(src="images/covers/cover14.png").responsive-img
+				img(src="images/covers/cover15.png").responsive-img
+				img(src="images/covers/cover16.png").responsive-img
+	#scienceCookModal.modal
+		.row.valign-wrapper
+			.col.s12.m4
+				img(src="images/sciencecook.jpg").responsive-img.valign
+			.col.s12.m8
+				p We organized a symposium on Science and Cooking featuring chef Corey Lee (Benu) and physicist Dave Weitz (Harvard). 
+				p See the video <a href="http://www.ucsf.edu/news/2012/07/12269/ucsf-lecture-takes-science-food">here </a>
+				p More on this event: 
+				p: a(href="https://www.facebook.com/media/set/?set=a.398233263540911.93947.231602763537296&type=3") Pictures of the event
+				p: a(href="http://www.systemscenters.org/2012/03/26/center-for-systems-synthetic-biology-uc-san-francisco-hosts-science-cooking-lecture/") Description from National Centers for Systems Biology
+				p: a(href="http://www.ucsf.edu/news/2012/07/12269/ucsf-lecture-takes-science-food") Summary of event from UCSF 
+
+	#artModal.modal
+		h4 Art
+		.row
+			.col.s4
+				img(src="images/art/art0.jpg").responsive-img
+				img(src="images/art/art1.jpg").responsive-img
+				img(src="images/art/art2.jpg").responsive-img
+				img(src="images/art/art3.jpg").responsive-img
+			.col.s4
+				img(src="images/art/art4.jpg").responsive-img
+				img(src="images/art/art5.jpg").responsive-img
+				img(src="images/art/art6.jpg").responsive-img
+				img(src="images/art/art7.jpg").responsive-img
+			.col.s4
+				img(src="images/art/art8.jpg").responsive-img
+				img(src="images/art/art9.jpg").responsive-img
+				img(src="images/art/art10.jpg").responsive-img
+
+block extra
+	.row.image-footer
+		.col.s3
+			img.responsive-img(src="images/surf.png")
+		.col.s6
+			img.responsive-img(src="images/children.jpg")
+		.col.s3
+			img.responsive-img(src="images/oldscience.jpg")

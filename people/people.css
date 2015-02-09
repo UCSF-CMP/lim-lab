@@ -1,0 +1,136 @@
+@charset "ISO-8859-1";
+body {
+	background: #ffffff;
+}
+p, li {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-weight: bold;
+	padding-top: 10px;
+}
+a:link, a:visited {
+	color: #003399;
+}
+a:hover {
+	color: #FF3300;
+}
+#selector {
+	width: 660px;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#main {
+	width: 660px;
+	padding: 20px;
+	padding-top: 0px;
+	margin: 5px;
+	border: none;
+	border-width:thin;
+}
+#nametag {
+	margin-left: -5px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+#firstname {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	letter-spacing:0.5px;
+	color: #333333;
+	vertical-align: middle;
+}
+#vertbar {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:32px;
+	font-weight:normal;
+	color:#000000;
+	vertical-align: middle;
+}
+#lastname {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight: bold;
+	letter-spacing:0.5px;
+	text-transform:uppercase;
+	vertical-align: middle;
+	color: #000000;
+}
+.at {
+	padding: 0px;
+	vertical-align: middle;	
+}
+.headshot{
+	width: 200;
+	float: right;	
+}
+#education {
+	padding-top:20px;
+	width: 450px;
+}
+.dates {
+	float: left;
+	width: 100px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+}
+.degrees {
+	margin-left:110px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+}
+#footer {
+	padding-top: 50px;
+}
+
+
+#alum{
+	width: 680px;
+	padding: 10px;
+	padding-top: 20px;
+	margin: 5px;
+}
+
+.alumrow {
+	width: 670px;
+	margin: 0px;
+	margin-left: 10px;
+	margin-right:0px;
+	margin-top: -1px;
+	border-style: solid;
+	border-width: thin;
+	text-align:left;
+	vertical-align: middle;
+}
+.alumname {
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	width: 200px;
+	margin: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-left: 10px;
+	border: none;
+	border-width: thin;
+}
+
+.aluminfo{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 10pt;
+	margin: 0px;
+	margin-left: 220px;
+	padding: 5px;
+	padding-left: 10px;
+	border-left: solid;
+	border-width: thin;
+}

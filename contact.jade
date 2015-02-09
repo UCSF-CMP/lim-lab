@@ -1,0 +1,57 @@
+html
+	head
+		title 
+		include ./components/head.jade
+	body
+		include ./components/header.jade
+		#title.container
+			h1.s12
+				span.part1 Lim Lab 
+				span.part2 | Contact
+
+		#contact.container
+			.row
+				.col.s12.m6
+					h5 Mailing Address
+					address.vcard
+						.adr 
+							.street-address UCSF MC 2240
+							.street-address Genentech Hall Room N414
+							.street-address 600 16th Street
+							.locality San Francisco, CA 94158-2517
+				.col.s12.m6
+					h5 Phone Numbers
+					table 
+						tr
+							td Wendell Lim Office
+							td 415-502-8080
+						tr 
+							td Lab Telephone
+							td 415-502-8133
+						tr
+							td Fax
+							td 415-514-4242
+			.row
+				.col.s12.m6
+					.card-panel
+						p Inquiries about <strong>POSTDOCTORAL positions</strong> should be emailed to <a href="mailto:wendell.lim@ucsf.edu">Wendell Lim</a> and cc'd to <a href="mailto:lim-postdoc-app@cmp.ucsf.edu">Noleine Blizzard</a>.
+						p Please also have three letters of reference emailed; include applicant's name in the subject line.
+						p Postdoctoral candidates should consider applying for the <a href="http://www.jsmf.org/programs/cs/"><strong>McDonnell Foundation Fellowship for Studying Complex Systems</strong></a> (prior to choosing postdoc mentor)
+				.col.s12.m6
+					.card-panel
+						p Inquiries about <strong>GRADUATE</strong> training should be directed to one of the following graduate programs:
+						ul
+							<li><a href="http://biophysics.ucsf.edu/" target="_blank">Biophysics</a></li>
+							<li><a href="http://ipqb.ucsf.edu/" target="_blank">Integrative Program in Quantitative Biology (iPQB)</a></li>
+							<li><a href="http://ccb.ucsf.edu/" target="_blank">Chemistry and Chemical Biology</a></li>
+							<li><a href="http://bioeng.berkeley.edu/gradhome.php" target="_blank">Bioengineering </a></li>
+							<li><a href="http://tetrad.ucsf.edu/" target="_blank">Tetrad</a> (Biochemistry and Molecular Biology, Cell Biology, Genetics, Developmental Biology)</li></ul>
+			.row
+				h5 Dress like the king
+				.col.s6.m4.l3
+					img(src="images/contact/elvis.jpg").responsive-img
+				.col.s6.m4.l3
+					img(src="images/contact/jacket.gif").responsive-img
+					p.center (back)
+		include ./components/footer.jade
+				
