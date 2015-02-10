@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: Undefined variable: \"$small-and-down\".\A         on line 28 of /Users/linxi/Dropbox/website - Lim Lab/Code/sass/main.scss\A \A 23: 	.layer{\A 24: 		margin: 2px 0;\A 25: 	}\A 26: }\A 27: \A 28: @media #{$small-and-down}{\A 29: 	#logo{\A 30: 		margin: 0 auto; \A 31: 	}\A 32: }\A 33: "}

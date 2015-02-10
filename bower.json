@@ -1,0 +1,13 @@
+{
+  "name": "Fitstub",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "bootstrap": "https://github.com/twbs/bootstrap/releases/download/v3.3.2/bootstrap-3.3.2-dist.zip",
+    "fontawesome": "4.2.0"
+  }
+}
