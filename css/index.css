@@ -7777,9 +7777,11 @@ html {
   #logo {
     margin: 6px 0 6px 30%;
     float: right; } }
-nav {
+body nav {
+  height: 56px;
+  line-height: 56px;
   font-family: 'ostrich_sansmedium', Helvetica Neue, Helvetica, Arial, sans-serif; }
-  nav ul a {
+  body nav ul a {
     font-size: 26px; }
 
 body .lastrow {
@@ -7795,6 +7797,11 @@ h1 .part1 {
   content: " ";
   clear: both;
   height: 0; }
+
+body footer.page-footer {
+  margin-top: 0; }
+  body footer.page-footer li {
+    list-style: none; }
 
 #downloads .title {
   font-weight: 700;

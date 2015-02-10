@@ -20,8 +20,6 @@ module.exports = function (grunt) {
 					files: [{
 						expand: true,
 						src: ["**/*.jade", "!**/_*.jade"], 
-						cwd: "./",
-						dest: "./", 
 						ext: ".html"
 					}]
 				}
@@ -41,9 +39,9 @@ module.exports = function (grunt) {
 			sass: {
 				dist: {
 					files: [{
-						src: "**/*.scss", 
-						cwd: "sass/",
-						dest: "css/", 
+						src: "*.scss", 
+						cwd: "sass",
+						dest: "css", 
 						expand: true,
 						ext: ".css"
 					}]
