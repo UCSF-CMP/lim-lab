@@ -1,19 +1,15 @@
 @-webkit-keyframes construction {
   0% {
     opacity: 1; }
-
   50% {
     opacity: 0.05; }
-
   100% {
     opacity: 1; } }
 @keyframes construction {
   0% {
     opacity: 1; }
-
   50% {
     opacity: 0.05; }
-
   100% {
     opacity: 1; } }
 body {
@@ -238,3 +234,5 @@ body h4 {
     font-size: 4em; }
 #design strong {
   font-family: 'ostrich_sansblack', sans-serif; }
+
+/*# sourceMappingURL=research.css.map */
