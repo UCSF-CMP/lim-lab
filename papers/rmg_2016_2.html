@@ -1,0 +1,61 @@
+
+<html> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/><link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/papers.css" media = "screen,projection"/></head>
+  <body>
+    <nav class="blue-grey darken-2">
+      <div class="nav-wrapper container"><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a><a id="logo" href="http://limlab.ucsf.edu/index.html"><img src="http://limlab.ucsf.edu/images/logo.png" height="43px" width="47px"/></a>
+        <ul id="nav-mobile" class="right side-nav">
+          <li><a href="http://limlab.ucsf.edu/index.html">Home</a></li>
+          <li><a href="http://limlab.ucsf.edu/research.html">Research</a></li>
+          <li><a href="http://limlab.ucsf.edu/people.html">People</a></li>
+          <li><a href="http://limlab.ucsf.edu/papers.html">Papers</a></li>
+          <li><a href="http://limlab.ucsf.edu/downloads.html">Resources</a></li>
+          <li><a href="http://limlab.ucsf.edu/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="title" class="container">
+      <h1 class="s12"><span class="part1">Lim Lab </span><span class="part2">| Papers</span></h1>
+    </div>
+    <div id="content" class="container">
+      <p class="title">Engineering dynamical control of cell fate switching using synthetic phospho-regulons.</p>
+      <p class="authors"> Russell M. Gordley, Reid E. Williams, Caleb J. Bashor, Jared E. Toettcher, Shude Yan, Wendell A. Lim. <br/> <em>Proceedings of the National Academy of Sciences.</em> 2016</p>
+      <p class="abstract"> Many cells can sense and respond to time-varying stimuli, selectively triggering changes in cell fate only in response to inputs of a particular duration or frequency. A common motif in dynamically controlled cells is a dual-timescale regulatory network: although longterm fate decisions are ultimately controlled by a slow-timescale switch (e.g., gene expression), input signals are first processed by a fast-timescale signaling layer, which is hypothesized to filter what dynamic information is efficiently relayed downstream. Directly testing the design principles of how dual-timescale circuits control dynamic sensing, however, has been challenging, because most synthetic biology methods have focused solely on rewiring transcriptional circuits, which operate at a single slow timescale. Here, we report the development of a modular approach for flexibly engineering phosphorylation circuits using designed phospho-regulon motifs. By then linking rapid phospho-feedback with slower downstream transcription-based bistable switches, we can construct synthetic dualtimescale circuits in yeast in which the triggering dynamics and the end-state properties of the ON state can be selectively tuned. These phospho-regulon tools thus open up the possibility to engineer cells with customized dynamical control.</p>
+      <p class="extras"> </p><p class="footer"><a href="../papers.html">back to all Lim Lab Publications</a></p>
+    </div>
+    <footer class="page-footer blue-grey">
+      <div class="container">
+        <div class="row">
+          <h5 class="white-text">Community</h5>
+          <div class="col l6 s12">
+            <li> <a href="http://cmp.ucsf.edu" class="grey-text text-lighten-3">Department of Cellular &amp; Molecular Pharmacology</a></li>
+            <li><a href="http://systemsbiology.ucsf.edu/" class="grey-text text-lighten-3">UCSF Center for Systems &amp; Synthetic Biology</a></li>
+            <li> <a href="http://www.hhmi.org" class="grey-text text-lighten-3">Howard Hughes Medical Institute</a></li>
+          </div>
+          <div class="col l6 s12">
+            <li><a href="http://www.qb3.org/cpl/" class="grey-text text-lighten-3">The Cell Propulsion Lab</a></li>
+            <li><a href="http://www.synberc.org/" class="grey-text text-lighten-3">SynBERC</a></li>
+            <li><a href="http://www.systemscenters.org/" class="grey-text text-lighten-3">National Centers for Systems Biology</a></li>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright white-text">
+        <div class="container">&copy; 2014 UCSF Lim Lab<a href="http://limlab.ucsf.edu/links.html" class="grey-text text-lighten-4 right">More Links</a></div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	$(".button-collapse").sideNav();
+      	$('.collapsible').collapsible();
+      	$('.tooltipped').tooltip({"delay": 50});
+      });
+    </script>
+  </body>
+</html>
