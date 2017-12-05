@@ -1,0 +1,61 @@
+
+<html> 
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/><link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/papers.css" media = "screen,projection"/></head>
+  <body>
+    <nav class="blue-grey darken-2">
+      <div class="nav-wrapper container"><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a><a id="logo" href="http://limlab.ucsf.edu/index.html"><img src="http://limlab.ucsf.edu/images/logo.png" height="43px" width="47px"/></a>
+        <ul id="nav-mobile" class="right side-nav">
+          <li><a href="http://limlab.ucsf.edu/index.html">Home</a></li>
+          <li><a href="http://limlab.ucsf.edu/research.html">Research</a></li>
+          <li><a href="http://limlab.ucsf.edu/people.html">People</a></li>
+          <li><a href="http://limlab.ucsf.edu/papers.html">Papers</a></li>
+          <li><a href="http://limlab.ucsf.edu/downloads.html">Resources</a></li>
+          <li><a href="http://limlab.ucsf.edu/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="title" class="container">
+      <h1 class="s12"><span class="part1">Lim Lab </span><span class="part2">| Papers</span></h1>
+    </div>
+    <div id="content" class="container">
+      <p class="title">Tracing Information Flow from Erk to Target Gene Induction Reveals Mechanisms of Dynamic and Combinatorial Control.</p>
+      <p class="authors"> Maxwell Z. Wilson, Pavithran T. Ravindran, Wendell A. Lim, Jared E. Toettcher. <br/> <em>Mol Cell</em> 2017</p>
+      <p class="abstract">Cell signaling networks coordinate specific patterns of protein expression in response to external cues, yet the logic by which signaling pathway activity determines the eventual abundance of target proteins is complex and poorly understood. Here, we describe an approach for simultaneously controlling the Ras/ Erk pathway and monitoring a target gene’s transcription and protein accumulation in single live cells. We apply our approach to dissect how Erk activity is decoded by immediate early genes (IEGs). We find that IEG transcription decodes Erk dynamics through a shared band-pass filtering circuit; repeated Erk pulses transcribe IEGs more efficiently than sustained Erk inputs. However, despite highly similar transcriptional responses, each IEG exhibits dramatically different protein-level accumulation, demonstrating a high degree of post-transcriptional regulation by combinations of multiple pathways. Our results demonstrate that the Ras/Erk pathway is decoded by both dynamic filters and logic gates to shape target gene responses in a context-specific manner.</p>
+      <p class="extras"> </p><p class="footer"><a href="../papers.html">back to all Lim Lab Publications</a></p>
+    </div>
+    <footer class="page-footer blue-grey">
+      <div class="container">
+        <div class="row">
+          <h5 class="white-text">Community</h5>
+          <div class="col l6 s12">
+            <li> <a href="http://cmp.ucsf.edu" class="grey-text text-lighten-3">Department of Cellular &amp; Molecular Pharmacology</a></li>
+            <li><a href="http://systemsbiology.ucsf.edu/" class="grey-text text-lighten-3">UCSF Center for Systems &amp; Synthetic Biology</a></li>
+            <li> <a href="http://www.hhmi.org" class="grey-text text-lighten-3">Howard Hughes Medical Institute</a></li>
+          </div>
+          <div class="col l6 s12">
+            <li><a href="http://www.qb3.org/cpl/" class="grey-text text-lighten-3">The Cell Propulsion Lab</a></li>
+            <li><a href="http://www.synberc.org/" class="grey-text text-lighten-3">SynBERC</a></li>
+            <li><a href="http://www.systemscenters.org/" class="grey-text text-lighten-3">National Centers for Systems Biology</a></li>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright white-text">
+        <div class="container">&copy; 2014 UCSF Lim Lab<a href="http://limlab.ucsf.edu/links.html" class="grey-text text-lighten-4 right">More Links</a></div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      	$(".button-collapse").sideNav();
+      	$('.collapsible').collapsible();
+      	$('.tooltipped').tooltip({"delay": 50});
+      });
+    </script>
+  </body>
+</html>
